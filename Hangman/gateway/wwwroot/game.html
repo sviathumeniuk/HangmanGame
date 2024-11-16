@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman Game</title>
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hangman Game</h1>
+
+    <div id="game-settings">
+      <h2>Choose Game Settings</h2>
+      <form id="settings-form">
+        <label for="language">Language:</label>
+        <select id="language" name="language">
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+        </select>
+
+        <label for="difficulty">Difficulty Level:</label>
+        <select id="difficulty" name="difficulty">
+          <option value="1">Easy</option>
+          <option value="2">Medium</option>
+          <option value="3">Hard</option>
+        </select>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category">
+          <option value="animals">Animals</option>
+          <option value="sports">Sports</option>
+          <option value="movies">Movies</option>
+        </select>
+
+        <button type="submit" id="start-new-game">Start New Game</button>
+      </form>
+
+      <button id="connect-to-game" class="connect-btn">Connect to a Game</button>
+      <a href="profile.html"><button class="profile-btn">Go to Profile</button></a>
+    </div>
+
+    <div id="game-area" style="display: none;">
+      <h2>Current Word:</h2>
+      <p id="word-template">_ _ _ _ _</p>
+      <p>Attempts Left: <span id="attempts-left">6</span></p>
+      <form id="guess-form">
+        <input type="text" id="letter" maxlength="1" required />
+        <button type="submit" id="guess-button" class="guess-btn">Guess</button>
+      </form>
+      <p id="game-status"></p>
+      <button id="restart-game" class="restart-btn">Back to menu</button>
+    </div>
+  </div>
+
+  <script src="js/game.js"></script>
+</body>
+</html>

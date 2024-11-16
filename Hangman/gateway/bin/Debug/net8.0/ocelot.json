@@ -1,0 +1,108 @@
+{
+    "Routes": [
+      {
+        "DownstreamPathTemplate": "/api/auth/login",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5144
+          }
+        ],
+        "UpstreamPathTemplate": "/auth/login",
+        "UpstreamHttpMethod": [ "POST" ]
+      },
+      {
+        "DownstreamPathTemplate": "/api/auth/register",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5144
+          }
+        ],
+        "UpstreamPathTemplate": "/auth/register",
+        "UpstreamHttpMethod": [ "POST" ]
+      },
+      {
+        "DownstreamPathTemplate": "/api/game/connect",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5079
+          }
+        ],
+        "UpstreamPathTemplate": "/game/connect",
+        "UpstreamHttpMethod": [ "GET" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "GatewayAuthentication"
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/game/start",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5079
+          }
+        ],
+        "UpstreamPathTemplate": "/game/start",
+        "UpstreamHttpMethod": [ "POST" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "GatewayAuthentication"
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/game/guess",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5079
+          }
+        ],
+        "UpstreamPathTemplate": "/game/guess",
+        "UpstreamHttpMethod": [ "POST" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "GatewayAuthentication"
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/auth/profile/{userId}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5144
+          }
+        ],
+        "UpstreamPathTemplate": "/users/profile/{userId}",
+        "UpstreamHttpMethod": [ "GET" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "GatewayAuthentication"
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/game/history/{userId}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5079
+          }
+        ],
+        "UpstreamPathTemplate": "/game/history/{userId}",
+        "UpstreamHttpMethod": [ "GET" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "GatewayAuthentication"
+        }
+      }
+    ],
+    "GlobalConfiguration": {
+      "BaseUrl": "http://localhost:5131",
+      "RequestIdKey": "OcRequestId",
+      "DownstreamScheme": "http"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "yOW/9079sCAgQSp5IHSUyxK10XtSGxNX/VvuKPNWaMg=",
+  "Source": "auth",
+  "BasePath": "_content/auth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "auth\\wwwroot",
+      "Source": "auth",
+      "ContentRoot": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\auth\\wwwroot\\",
+      "BasePath": "_content/auth",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

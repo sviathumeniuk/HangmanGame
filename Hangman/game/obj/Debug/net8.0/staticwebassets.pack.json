@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\game\\wwwroot\\css\\game.css",
+      "PackagePath": "staticwebassets\\css\\game.css"
+    },
+    {
+      "Id": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\game\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\game\\wwwroot\\js\\game.js",
+      "PackagePath": "staticwebassets\\js\\game.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.game.props",
+      "PackagePath": "build\\game.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.game.props",
+      "PackagePath": "buildMultiTargeting\\game.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.game.props",
+      "PackagePath": "buildTransitive\\game.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.game.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

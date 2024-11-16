@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Fq2cd2fkZAZFqyOa+Kb8FOsJYvtnda9nZd+yWDZKDPA=",
+  "Source": "game",
+  "BasePath": "_content/game",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "game\\wwwroot",
+      "Source": "game",
+      "ContentRoot": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\Hangman\\game\\wwwroot\\",
+      "BasePath": "_content/game",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
