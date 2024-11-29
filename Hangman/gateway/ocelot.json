@@ -68,36 +68,6 @@
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "GatewayAuthentication"
         }
-      },
-      {
-        "DownstreamPathTemplate": "/api/auth/profile/{userId}",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "localhost",
-            "Port": 5144
-          }
-        ],
-        "UpstreamPathTemplate": "/users/profile/{userId}",
-        "UpstreamHttpMethod": [ "GET" ],
-        "AuthenticationOptions": {
-          "AuthenticationProviderKey": "GatewayAuthentication"
-        }
-      },
-      {
-        "DownstreamPathTemplate": "/api/game/history/{userId}",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "localhost",
-            "Port": 5079
-          }
-        ],
-        "UpstreamPathTemplate": "/game/history/{userId}",
-        "UpstreamHttpMethod": [ "GET" ],
-        "AuthenticationOptions": {
-          "AuthenticationProviderKey": "GatewayAuthentication"
-        }
       }
     ],
     "GlobalConfiguration": {

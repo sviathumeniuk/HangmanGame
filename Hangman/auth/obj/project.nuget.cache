@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JTYRUTP2nZYTIj+7GweG0LiIX4Q0H+iNUbDOtfUeomDUyegC/C/IkcYQ2qVR0+XmN6QgLs6dilJLkIIBUWJ11Q==",
+  "dgSpecHash": "29k69kIbmKfxh2r+zsf1zlqeSdgoKnbROv4nVpfpnGChFCjob0eObZo9J3nOuA2yAss0oDZ57liAPopcCLBBzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\auth\\auth.csproj",
+  "projectFilePath": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\auth\\auth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sviat\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Sviat\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

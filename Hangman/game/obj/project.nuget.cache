@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7VxmbhSQBzXlCeU6zorKBFCBYqXFbrlpWyep2gtttMYjP8fZOwezVIDeRafxT1I0RSYsCLE80ZHKtdkfGt/R7Q==",
+  "dgSpecHash": "OeneaLflZG3WZmw222YiH8a8gPiGVb1TNOZyiQ5ZFgy5iMu3X61Gy9uq9Z9FlFTwNhFsQbCzmDGIcQGcE7pO1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\Hangman\\game\\game.csproj",
+  "projectFilePath": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\game\\game.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sviat\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Sviat\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.10\\microsoft.aspnetcore.authentication.jwtbearer.8.0.10.nupkg.sha512",

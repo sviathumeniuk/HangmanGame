@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yOW/9079sCAgQSp5IHSUyxK10XtSGxNX/VvuKPNWaMg=",
+  "Hash": "yGY5howAI5UILdnRP0Oa3fYvZ2QI/cXfHS3FMySzMRQ=",
   "Source": "auth",
   "BasePath": "_content/auth",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "auth\\wwwroot",
       "Source": "auth",
-      "ContentRoot": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\auth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\auth\\wwwroot\\",
       "BasePath": "_content/auth",
       "Pattern": "**"
     }

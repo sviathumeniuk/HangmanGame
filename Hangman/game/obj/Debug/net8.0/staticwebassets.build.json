@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fq2cd2fkZAZFqyOa+Kb8FOsJYvtnda9nZd+yWDZKDPA=",
+  "Hash": "PLI5zwEfnVKdsISP2N/gcAPQATWrQGqxgztpOaDJmAs=",
   "Source": "game",
   "BasePath": "_content/game",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "game\\wwwroot",
       "Source": "game",
-      "ContentRoot": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\Hangman\\game\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\game\\wwwroot\\",
       "BasePath": "_content/game",
       "Pattern": "**"
     }

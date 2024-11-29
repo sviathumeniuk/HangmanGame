@@ -4509,11 +4509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\auth\\auth.csproj",
+      "projectUniqueName": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\auth\\auth.csproj",
       "projectName": "auth",
-      "projectPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\auth\\auth.csproj",
+      "projectPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\auth\\auth.csproj",
       "packagesPath": "C:\\Users\\Sviat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\auth\\obj\\",
+      "outputPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\auth\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sviat\\AppData\\Roaming\\NuGet\\NuGet.Config"

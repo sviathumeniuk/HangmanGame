@@ -7,6 +7,16 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Додаємо CORS політику
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontendOrigin", builder =>
+        builder.WithOrigins("http://localhost:5131") // Дозволяємо доступ тільки з цього походження
+               .AllowAnyMethod()
+               .AllowAnyHeader());
+});
+
+// Налаштування БД і JWT
 builder.Services.AddDbContext<GameDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -14,8 +24,6 @@ builder.Services.AddDbContext<GameDbContext>(options =>
     ));
 
 builder.Services.AddScoped<IHangmanService, HangmanService>();
-
-builder.Services.AddSingleton<RabbitMQPublisher>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -39,11 +47,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Включаємо CORS перед аутентифікацією та авторизацією
+app.UseCors("AllowFrontendOrigin");
 
 app.UseDefaultFiles();
 app.UseStaticFiles();

@@ -1400,11 +1400,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\gateway\\gateway.csproj",
+      "projectUniqueName": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\gateway\\gateway.csproj",
       "projectName": "gateway",
-      "projectPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\gateway\\gateway.csproj",
+      "projectPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\gateway\\gateway.csproj",
       "packagesPath": "C:\\Users\\Sviat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\gateway\\obj\\",
+      "outputPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\gateway\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sviat\\AppData\\Roaming\\NuGet\\NuGet.Config"

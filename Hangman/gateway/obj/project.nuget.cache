@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ARM+6gIVgnvxI2x9MZPYYw/XAzob8Tr92SVp1QiTFn6Gdwcldao9n+o3hWIq8XO7bNOk1xunL91GUH6bdPKngg==",
+  "dgSpecHash": "lh2at+XdPOG1WBky7Y7q4okAFkLCtAZm9jpo9yvs664sA1U30ZBKxoIphYmZNHW2np3+sPq65zyxVhtsD21FYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\proj\\gateway\\gateway.csproj",
+  "projectFilePath": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\gateway\\gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sviat\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\Sviat\\.nuget\\packages\\ipaddressrange\\6.0.0\\ipaddressrange.6.0.0.nupkg.sha512",

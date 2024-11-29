@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\Hangman\\game\\game.csproj": {}
+    "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\game\\game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\Hangman\\game\\game.csproj": {
+    "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\game\\game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\Hangman\\game\\game.csproj",
+        "projectUniqueName": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\game\\game.csproj",
         "projectName": "game",
-        "projectPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\Hangman\\game\\game.csproj",
+        "projectPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\game\\game.csproj",
         "packagesPath": "C:\\Users\\Sviat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys prog\\Hangman\\game\\obj\\",
+        "outputPath": "C:\\Users\\Sviat\\Desktop\\pr\\sys_prog\\Hangman\\game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sviat\\AppData\\Roaming\\NuGet\\NuGet.Config"

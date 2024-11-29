@@ -7,12 +7,10 @@ namespace Hangman.Services
     public class HangmanService : IHangmanService
     {
         private readonly GameDbContext _dbContext;
-        private readonly RabbitMQPublisher _rabbitMQPublisher;
 
-        public HangmanService(GameDbContext dbContext, RabbitMQPublisher rabbitMQPublisher)
+        public HangmanService(GameDbContext dbContext)
         {
             _dbContext = dbContext;
-            _rabbitMQPublisher = rabbitMQPublisher;
         }
 
 public async Task<GameResponse> StartGameAsync(int userId, Word filter, bool force)
@@ -122,7 +120,6 @@ public async Task<GameResponse> StartGameAsync(int userId, Word filter, bool for
             if (gameState.AttemptsLeft <= 0 || gameState.IsWin)
             {
                 gameState.EndTime = DateTime.UtcNow;
-                _rabbitMQPublisher.PublishRatingUpdate(userId, gameState.IsWin, difficulty);
             }
 
             _dbContext.GameStates.Update(gameState);

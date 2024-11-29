@@ -7,6 +7,14 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontendOrigin", builder =>
+        builder.WithOrigins("http://localhost:5131")
+               .AllowAnyMethod()
+               .AllowAnyHeader());
+});
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
                      new MySqlServerVersion(new Version(8, 0, 32))));
@@ -29,17 +37,18 @@ builder.Services.AddAuthentication(options =>
         ValidAudience = builder.Configuration["Jwt:Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(key)
     };
-        options.MapInboundClaims = false;
+    options.MapInboundClaims = false;
 });
 
 builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddHostedService<RabbitMQConsumer>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseCors("AllowFrontendOrigin");
 
 if (app.Environment.IsDevelopment())
 {
